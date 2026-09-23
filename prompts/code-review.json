@@ -1,0 +1,8 @@
+{
+  "name": "code-review",
+  "title": "Focused Code Review",
+  "description": "Review code for correctness, security, maintainability, and actionable improvements.",
+  "template": "Act as a careful senior reviewer. Review the following {{language}} code. Prioritize correctness and security, then maintainability. Separate confirmed issues from suggestions. For each issue, explain impact and a concrete fix. Do not invent behavior not visible in the code.\n\nCode:\n{{code}}",
+  "tags": ["development", "review", "security"],
+  "version": 1
+}
