@@ -1,0 +1,8 @@
+{
+  "name": "summarize",
+  "title": "Grounded Summary",
+  "description": "Summarize supplied text without introducing unsupported facts.",
+  "template": "Summarize the text below for {{audience}}. Preserve important facts, uncertainty, numbers, and decisions. Do not add information that is not in the source. Use concise paragraphs and finish with key takeaways when useful.\n\nSource:\n{{text}}",
+  "tags": ["writing", "summary", "grounded"],
+  "version": 1
+}
